@@ -1,0 +1,41 @@
+6.5623 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x7fc22909e200>, name='window1', pos=[0, 0], screen=0, size=array([1366,  768]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5624 	EXP 	window1: recordFrameIntervals = False
+6.7274 	EXP 	window1: recordFrameIntervals = True
+6.9119 	EXP 	window1: recordFrameIntervals = False
+7.1992 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+7.2043 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([ 0.7,  0.7]), texRes=128, units=u'norm', win=Window(...))
+7.2085 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.5,  0. ]), size=array([ 0.7,  0.7]), texRes=128, units=u'norm', win=Window(...))
+7.2429 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+7.2499 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([-0.5, -0.5]), rgb=array([ 255.,  255.,  255.]), text=u'Neutral', units=u'norm', win=Window(...), wrapWidth=1)
+7.2684 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+7.2773 	EXP 	text_2: autoDraw = True
+7.8726 	DATA 	Keypress: space
+7.8840 	EXP 	Imported images.csv as conditions, 36 conditions, 2 params
+7.8851 	EXP 	Created sequence: random, trialTypes=36, nReps=1, seed=None
+7.8887 	EXP 	New trial (rep=0, index=0): {'Stimulus': u'Stimuli/FGSAD1.png', 'Neutral': u'Stimuli/FGNEU.png'}
+8.1525 	EXP 	window1: recordFrameIntervals = False
+8.1692 	EXP 	text_2: autoDraw = False
+8.1692 	EXP 	image: image = u'Stimuli/FGNEU.png'
+8.1692 	EXP 	image_2: image = u'Stimuli/FGSAD1.png'
+8.1692 	EXP 	image: autoDraw = True
+8.1692 	EXP 	image_2: autoDraw = True
+8.1692 	EXP 	text: autoDraw = True
+8.1692 	EXP 	text_3: autoDraw = True
+8.1695 	EXP 	window1: recordFrameIntervals = False
+11.2422 	DATA 	Keypress: space
+12.0195 	DATA 	Keypress: 2
+12.1155 	EXP 	New trial (rep=0, index=1): {'Stimulus': u'Stimuli/FFANG3.png', 'Neutral': u'Stimuli/FFNEU.png'}
+12.4036 	DATA 	Keypress: 3
+12.4039 	EXP 	window1: recordFrameIntervals = False
+12.4182 	EXP 	image: autoDraw = False
+12.4182 	EXP 	image_2: autoDraw = False
+12.4182 	EXP 	text: autoDraw = False
+12.4182 	EXP 	text_3: autoDraw = False
+12.4182 	EXP 	image: image = u'Stimuli/FFNEU.png'
+12.4182 	EXP 	image_2: image = u'Stimuli/FFANG3.png'
+12.4182 	EXP 	image: autoDraw = True
+12.4182 	EXP 	image_2: autoDraw = True
+12.4182 	EXP 	text: autoDraw = True
+12.4182 	EXP 	text_3: autoDraw = True
+12.4186 	EXP 	window1: recordFrameIntervals = False
+19.8612 	DATA 	Keypress: escape
