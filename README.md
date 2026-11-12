@@ -4,7 +4,7 @@ Facial Expression Recognition Test
 The folder "FERT 1.0" contains the PsychoPy version of the test (built using PsychoPy 1.83.04, www.psychopy.org). 
 Run the file "FER-T.psyexp" using PsychoPy to run the test. It will output a .csv file in the data subfolder. 
 
-To score the test, run the file "FER-T 1.0 Scoring.R" using R (packages BEST and rstan are required for scoring) and open the .csv file when prompted. Computation may take a while (contact me, I may be able to carry it out for you). 
+To score the test, run the file "FER-T 1.0 Scoring.R" in R and choose the .csv file(s) when prompted (on Windows you can select several files at once). No R packages are needed. Since version 2.0 of the script (November 2026) the posterior of each participant's ability is computed exactly on a grid instead of by MCMC, so the earlier dependencies on the BEST package (no longer on CRAN) and on rstan are gone; the estimate is the same quantity as before (posterior mean of theta, with its posterior SD and 95% HDI).
 
 For any questions about the test and the scoring procedure, do not hesitate to contact me at marcello.passarelli@gmail.com
 
